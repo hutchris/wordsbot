@@ -1,0 +1,13 @@
+logFile: "wordsbot.log"
+csvFile: "5000words.csv"
+baseImgFile: "paper.jpg"
+fontFile: "Arial.ttf"
+google:
+  username: "example@gmail.com"
+  password: "hunter12"
+twitter:
+  hashtags: "#dailytypeword"
+  consumerKey: "#####"
+  consumerSecret: "#####"
+  accessKey: "####"
+  accessSecret: "####"
