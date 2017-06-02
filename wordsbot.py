@@ -19,10 +19,12 @@ try:
             dateStr = datetime.now().isoformat()
             logFileObj.write("{d} : {m}\n".format(d=dateStr,m=message))
 
-    if os.path.exists("config.yml"):
-        with open("config.yml","r") as yamlFile:
+    configPath = os.path.join(baseDir,"config.yml")
+
+    if os.path.exists(configPath):
+        with open(configPath,"r") as yamlFile:
             params = yaml.load(yamlFile)    
-        logFilePath = os.path.join(params['logFile'])
+        logFilePath = os.path.join(baseDir,params['logFile'])
         addLog(logFilePath,"loaded params from config")
     else:
         print("no config.yml file detected, exiting")
@@ -38,6 +40,7 @@ try:
 
     #PIL params
     baseImg = params['baseImgFile']
+    baseImgPath = os.path.join(baseDir,baseImg)
     imgDir = os.path.join(baseDir,"images")
     fontFileName = params['fontFile']
     fontFile = os.path.join(baseDir,fontFileName)
@@ -77,7 +80,7 @@ try:
     addLog(logFilePath,"saved csv sans word")
 
     #create image of word
-    img = Image.open(baseImg)
+    img = Image.open(baseImgPath)
     imgWidth,imgHeight = img.size
     draw = ImageDraw.Draw(img)
     myFont = ImageFont.truetype(fontFile,42)
@@ -95,7 +98,7 @@ try:
     auth = tweepy.OAuthHandler(CK,CS)
     auth.set_access_token(AK,AS)
     api = tweepy.API(auth)
-    tweetResp = api.update_with_media(imgFile,status="{w} {h}".format(w=word,h=hashtags))
+    tweetResp = api.update_with_media(imgPath,status="{w} {h}".format(w=word,h=hashtags))
 
     addLog(logFilePath,"tweet sent")
 

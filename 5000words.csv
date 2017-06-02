@@ -132,7 +132,6 @@ Rank,Word,Part of speech,Frequency,Dispersion
 131,ask,v,284632,0.96
 132,need,v,276744,0.98
 133,too,r,280396,0.96
-134,feel,v,275214,0.95
 135,three,m,266744,0.98
 136,when,r,268219,0.97
 137,state,n,272193,0.94
@@ -275,7 +274,6 @@ Rank,Word,Part of speech,Frequency,Dispersion
 274,game,n,146311,0.92
 275,often,r,140731,0.95
 276,yet,r,135484,0.98
-277,line,n,135986,0.98
 278,political,j,144437,0.92
 279,end,n,134104,0.98
 280,among,i,138192,0.94
@@ -1366,7 +1364,6 @@ Rank,Word,Part of speech,Frequency,Dispersion
 1368,annual,j,28471,0.93
 1369,French,j,27590,0.96
 1370,Christmas,n,28046,0.94
-1371,comment,n,27712,0.95
 1372,responsible,j,27569,0.96
 1373,affair,n,27432,0.96
 1374,approach,v,27449,0.96
@@ -2499,7 +2496,6 @@ Rank,Word,Part of speech,Frequency,Dispersion
 2501,pan,n,14148,0.9
 2502,consultant,n,13646,0.93
 2503,soon,c,13547,0.94
-2504,line,v,13373,0.95
 2505,administrator,n,14058,0.9
 2506,date,v,13231,0.96
 2507,occasionally,r,13321,0.95
@@ -2547,7 +2543,6 @@ Rank,Word,Part of speech,Frequency,Dispersion
 2549,Latin,j,13797,0.9
 2550,rapidly,r,13066,0.95
 2551,jail,n,13324,0.93
-2552,comment,v,12930,0.96
 2553,diversity,n,13872,0.89
 2554,honest,j,12916,0.96
 2555,Palestinian,j,14008,0.88
@@ -3967,7 +3962,6 @@ Rank,Word,Part of speech,Frequency,Dispersion
 3969,entity,n,7276,0.9
 3970,suffering,n,6955,0.94
 3971,full-time,j,6945,0.94
-3972,feel,n,6939,0.95
 3973,lamp,n,7290,0.9
 3974,garbage,n,6933,0.95
 3975,servant,n,7064,0.93
@@ -4003,7 +3997,6 @@ Rank,Word,Part of speech,Frequency,Dispersion
 4005,inventory,n,7090,0.92
 4006,productive,j,7006,0.93
 4007,assembly,n,6914,0.94
-4008,civic,j,7088,0.91
 4009,silk,n,7128,0.91
 4010,magnitude,n,7115,0.91
 4011,steep,j,6972,0.93
@@ -4733,7 +4726,6 @@ Rank,Word,Part of speech,Frequency,Dispersion
 4735,grandparent,n,5334,0.95
 4736,lawmaker,n,5755,0.88
 4737,supermarket,n,5389,0.94
-4738,cruise,n,5434,0.93
 4739,mobile,j,5339,0.94
 4740,plain,n,5337,0.94
 4741,part,i,5503,0.91
