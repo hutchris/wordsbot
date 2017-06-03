@@ -1,5 +1,5 @@
 config.yml
-wordsbot.log
+*.log
 
 images/
 
