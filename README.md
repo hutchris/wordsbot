@@ -1,5 +1,5 @@
 # wordsbot
-Twitter bot for posting random words as design inspiration
+Twitter bot for posting random words as design inspiration. Uses a list of 5000 of the most popular english words. Picks a sample of words each day then uses the Google trends API to pick a word that is more likely to be popular.
 
 1. Create config file:
 
